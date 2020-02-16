@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const { commentSchema } = require("./comments");
+const { commentSchema } = require("./comment");
 const Currency = require("mongoose-currency");
 
 const dishSchema = new Schema({
@@ -39,5 +39,5 @@ const dishSchema = new Schema({
     timestamps: true
 });
 
-const Dishes = mongoose.model("Dish", dishSchema);
-module.exports = Dishes;
+const Dish = mongoose.model("Dish", dishSchema);
+module.exports = Dish;

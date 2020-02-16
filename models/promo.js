@@ -29,6 +29,6 @@ var promoSchema = new Schema({
     timestamps: true
 });
 
-const Promos = mongoose.model("Promo", promoSchema);
-module.exports = Promos;
+const Promo = mongoose.model("Promo", promoSchema);
+module.exports = Promo;
 // module.exports.promoSchema = promoSchema;

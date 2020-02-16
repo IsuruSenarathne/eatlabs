@@ -1,6 +1,6 @@
 var express = require("express");
 const bodyParser = require("body-parser");
-const Dishes = require("../models/dishes");
+const Dishes = require("../models/dish");
 
 var dishRouter = express.Router();
 

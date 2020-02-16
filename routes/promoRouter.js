@@ -1,6 +1,6 @@
 var express = require('express');
 var promoRouter  = express.Router();
-const Promos = require("../models/promos");
+const Promos = require("../models/promo");
 const bodyParser = require("body-parser");
 
 promoRouter.use(bodyParser.json());
